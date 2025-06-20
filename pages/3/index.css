@@ -1,0 +1,129 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.ranking-label {
+  font-size: 28px;         /* 大きくする */
+  font-weight: bold;       /* 太字にする */
+  color: #d9006c;           /* 目立つ色（ピンク系） */
+  text-align: center;      /* 中央揃え */
+  margin-bottom: 10px;
+  background-color: #fff0f5; /* 背景を薄いピンクにして目立たせる */
+  padding: 8px 12px;
+  border-radius: 10px;     /* 丸みをつけて柔らかく */
+  display: inline-block;   /* サイズを中身に合わせる */
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* 影で立体感 */
+}
+
+
+header {
+    background-color: #ff1493;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+header p {
+    font-size: 1.1rem;
+}
+
+main {
+    padding: 20px;
+    max-width: 960px;
+    margin: 20px auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+section {
+    margin-bottom: 30px;
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+}
+
+section:last-of-type {
+    border-bottom: none;
+}
+
+h2 {
+    color: #e05e83; 
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.flavor-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.flavor-item:last-child {
+    margin-bottom: 0;
+}
+
+.flavor-item img {
+    width: 150px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.flavor-item h3 {
+    color: #e05e83;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.flavor-item p {
+    flex-grow: 1;
+}
+
+#stores p {
+    text-align: center;
+}
+
+#stores a {
+    color: #f790a6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#stores a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .flavor-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    .flavor-item img {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
