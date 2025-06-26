@@ -8,16 +8,16 @@ body {
 }
 
 .ranking-label {
-  font-size: 28px;         /* 大きくする */
-  font-weight: bold;       /* 太字にする */
-  color: #d9006c;           /* 目立つ色（ピンク系） */
-  text-align: center;      /* 中央揃え */
+  font-size: 28px;       
+  font-weight: bold;      
+  color: #d9006c;           
+  text-align: center;      
   margin-bottom: 10px;
-  background-color: #fff0f5; /* 背景を薄いピンクにして目立たせる */
+  background-color: #fff0f5; 
   padding: 8px 12px;
-  border-radius: 10px;     /* 丸みをつけて柔らかく */
-  display: inline-block;   /* サイズを中身に合わせる */
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); /* 影で立体感 */
+  border-radius: 10px;     
+  display: inline-block;   
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.2); 
 }
 
 
