@@ -8,7 +8,7 @@ body {
 }
 
 .ranking-label {
-  font-size: 28px;       
+  font-size: 40px;       
   font-weight: bold;      
   color: #d9006c;           
   text-align: center;      
@@ -71,6 +71,8 @@ h2 {
     padding: 15px;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    font-weight: bold;
+     color: #c71585;
 }
 
 .flavor-item:last-child {
@@ -90,6 +92,7 @@ h2 {
     margin-top: 0;
     margin-bottom: 5px;
     margin-left: 20px;
+    font-size: 30px;
 }
 
 .flavor-item p {
